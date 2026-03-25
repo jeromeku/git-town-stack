@@ -1,4 +1,4 @@
-name: Git Town
+name: Stacked PR Tree
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - '**'
 
 jobs:
-  git-town:
+  stacked-pr:
     name: Display the branch stack
     runs-on: ubuntu-latest
 
